@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/modal.css">
+    <link rel="stylesheet" href="styles/register.css">
+	<link rel="stylesheet" href="styles/product.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <title>Home</title>
+    
+</head>
+
+<body>
+    <header class="header_container">
+        <h1>SEOS</h1>
+        <input class="search" type="text" placeholder="Search a product here...">
+    </header>
+    <nav class="nav_component">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="registerBtn" onclick="openRegisterPopUp()">Register</a></li>
+            <li><a href="#" class="loginBtn" onclick="openPopup()">Login</a></li>
+            <li id="categoryBtn">
+              <a href="#">Category</a>
+              <ul class="submenu">
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Perfumes</a></li>
+                <li><a href="#">Bags</a></li>
+                <li><a href="">Clothes</a></li>
+              </ul>
+            </li>
+          </ul>
+    </nav>
+    <div class="banner">
+        <div class="banner_label">
+            <div class="banner_text">
+                WOMEN'S LATEST FASION SALE
+            </div>
+            <div class="shop_now">
+                <div class="shop_now_image">
+                    <img src="images/shopping-cart.png" alt="">
+                </div>
+                <div>Shop now</div>
+            </div>
+        </div>
+    </div>
+
+	<section>
+        <div>
+            <div class="product_container">
+                <img width="100%" src="../web_tech_project-master/images/pile-jeans.jpg" alt="">
+                <label for="">20% Off</label>
+            </div>
+            <div class="p_info">
+                <p id="product_name">pile-jeans</p>
+                <p id="product_price">GH₵100.00</p>
+            </div>
+           <p class="add_gift" onclick="">view Store</p>
+        </div>
+
+		<div>
+            <div class="product_container">
+                <img width="100%" src="../web_tech_project-master/images/shirt-clothes.jpg" alt="">
+                <label for="">20% Off</label>
+            </div>
+            <div class="p_info">
+                <p id="product_name">Lacoste</p>
+                <p id="product_price">GH₵80.00</p>
+            </div>
+           <p class="add_gift" onclick="">view Store</p>
+        </div>
+
+		<div>
+            <div class="product_container">
+                <img width="100%" src="../web_tech_project-master/images/fashion-shoes-sneakers.jpg" alt="">
+                <label for="">20% Off</label>
+            </div>
+            <div class="p_info">
+                <p id="product_name"> super sneakers</p>
+                <p id="product_price">GH₵129.99</p>
+            </div>
+           <p class="add_gift" onclick="">view Store</p>
+        </div>
+		
+    </section>
+
+
+<section>
+	<div>
+		<div class="product_container">
+			<img width="100%" src="../web_tech_project-master/images/new-sneakers.jpg" alt="">
+			<label for="">20% Off</label>
+		</div>
+		<div class="p_info">
+			<p id="product_name">All Stars super sneakers</p>
+			<p id="product_price">GH₵199.99</p>
+		</div>
+	   <p class="add_gift" onclick="">view Store</p>
+	</div>
+
+	<div>
+		<div class="product_container">
+			<img width="100%" src="../web_tech_project-master/images/child-with-jeans-white-sneakers.jpg" alt="">
+			<label for="">20% Off</label>
+		</div>
+		<div class="p_info">
+			<p id="product_name">Air Force</p>
+			<p id="product_price">GH₵149.99</p>
+		</div>
+	   <p class="add_gift" onclick="">Add to Gift</p>
+	</div>
+
+	<div>
+		<div class="product_container">
+			<img width="100%" src="../web_tech_project-master/images/hairstyle-girl-.jpg" alt="">
+			<label for="">20% Off</label>
+		</div>
+		<div class="p_info">
+			<p id="product_name">Dreadlocks braid</p>
+			<p id="product_price">GH₵150.00</p>
+		</div>
+	   <p class="add_gift" onclick="">view Store</p>
+	</div>
+	
+    </section>
+
+<section>
+	<div>
+		<div class="product_container">
+			<img width="100%" src="../web_tech_project-master/images/smartphone-.jpg" alt="">
+			<label for="">20% Off</label>
+		</div>
+		<div class="p_info">
+			<p id="product_name">UK used Iphones</p>
+			<p id="product_price">Negotiatable</p>
+		</div>
+	   <p class="add_gift" onclick="">view Store</p>
+	</div>
+
+	<div>
+		<div class="product_container">
+			<img width="100%" src="../web_tech_project-master/images/makeup kit.jpg" alt="">
+			<label for="">20% Off</label>
+		</div>
+		<div class="p_info">
+			<p id="product_name">Makeup Artist</p>
+			<p id="product_price">GH₵100.00</p>
+		</div>
+	   <p class="add_gift" onclick="">view store</p>
+	</div>
+
+	<div>
+		<div class="product_container">
+			<img width="100%" src="../web_tech_project-master/images/beautiful-elegance-luxury-fashion-green-handbag.jpg" alt="">
+			<label for="">20% Off</label>
+		</div>
+		<div class="p_info">
+			<p id="product_name">Handbags</p>
+			<p id="product_price">GH₵49.99</p>
+		</div>
+	   <p class="add_gift" onclick="">view Store</p>
+	</div>
+	
+    </section>
+
+<section>
+	<div>
+		<div class="product_container">
+			<img width="100%" src="../web_tech_project-master/images/front-view-elegant-perfume-colored-flowers-beige-ombre-background.jpg" alt="">
+			<label for="">20% Off</label>
+		</div>
+		<div class="p_info">
+			<p id="product_name">Perfumes</p>
+			<p id="product_price">GH₵129.99</p>
+		</div>
+	   <p class="add_gift" onclick="">view store</p>
+	</div>
+
+	<div>
+		<div class="product_container">
+			<img width="100%" src="../web_tech_project-master/images/women-heeled-shoes.jpg" alt="">
+			<label for="">20% Off</label>
+		</div>
+		<div class="p_info">
+			<p id="product_name">Heeled-shoes</p>
+			<p id="product_price">GH₵179.99</p>
+		</div>
+	   <p class="add_gift" onclick="">veiw Store</p>
+	</div>
+
+	<div>
+		<div class="product_container">
+			<img width="100%" src="../web_tech_project-master/images/arsenal kits.jpg" alt="">
+			<label for="">20% Off</label>
+		</div>
+		<div class="p_info">
+			<p id="product_name">Customized jersey</p>
+			<p id="product_price">GH₵129.99</p>
+		</div>
+	   <p class="add_gift" onclick="">view Store</p>
+	</div>
+	
+    </section>
+
+
+
+
+   <!-- Login modal -->
+	<div id="loginPopup" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup()">&times;</span>
+			<h2>Login</h2>
+
+			<?php
+
+// Register user
+
+if(isset($_POST['register'])){
+    // validate inputs
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+    // perform database insert here
+
+    // redirect to main page
+    header("Location: main_page.php");
+    exit;
+}
+
+// Login user
+if(isset($_POST['login'])){
+    // validate inputs
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+    // perform database check here to verify email and password
+
+    // redirect to main page
+    header("Location: main_page.php");
+    exit;
+}
+?>
+
+			<form>
+				<div>
+					<!-- <label for="username">Email</label><br> -->
+					<div class="input-field">
+						<input type="email" id="username" name="username" required placeholder="Email">
+						<img width="20px" src="images/email.png" alt="image">
+					</div>
+				</div>
+				<div>
+					<!-- <label for="password">Password</label><br> -->
+					<div class="input-field">
+						<input type="password" id="password" name="username" required placeholder="Password">
+						<img width="20px" src="images/padlock.png" alt="image">
+					</div>
+					
+				</div>
+				<div class="remember">
+					<span>
+						<input type="checkbox">
+						<label for="">Remember me</label>
+					</span>
+					<a class="links" href="">Forgot Password?</a>
+				</div>
+				<input class="login-Btn" type="submit" value="LOGIN" href="mainpage.html">
+				<div class="donnot">
+					Don't have an account?
+					<a class="links" onclick="toRegister(event)" href="">Register</a>
+					
+				</div>
+			</form>
+
+		</div>
+	</div>
+
+    <!-- register modal -->
+	<div id="registerPopup" class="regPopup">
+		<div class="registerPopup-content">
+			<span class="registerclose" onclick="closeRegisterPopUp()">&times;</span>
+			<h2>Registration</h2>
+			<form>
+                <div>
+					<!-- <label for="username">Email</label><br> -->
+					<div class="register-input-field">
+						<input type="text" id="fullname" name="fullname" required placeholder="Fullname">
+						<img width="20px" src="images/user.png" alt="image">
+					</div>
+				</div>
+				<div>
+					<!-- <label for="username">Email</label><br> -->
+					<div class="register-input-field">
+						<input type="email" id="username" name="username" required placeholder="Email">
+						<img width="20px" src="images/email.png" alt="image">
+					</div>
+				</div>
+				<div>
+					<!-- <label for="password">Password</label><br> -->
+					<div class="register-input-field">
+						<input type="password" id="password" name="username" required placeholder="Password">
+						<img width="20px" src="images/padlock.png" alt="image">
+					</div>
+				</div>
+				<div class="remember">
+					<span>
+						<input type="checkbox">
+						<label for="">I agree to the terms & conditions</label>
+					</span>
+				</div>
+				<input class="register-Btn" type="submit" value="REGISTER">
+				<div class="already">
+					Already have an account?
+					<a class="links" onclick="toLogin(event)" href="">Login</a>
+				</div>
+			</form>
+		</div>
+	</div>
+    <footer class="the_footer">
+		<div class="left-text">
+			<h2 class="list-header">Trending categories</h2>
+			<ul>
+				<li>clothes</li>
+				<li>Perfumes</li>
+				<li>Shoes</li>
+				<li>Bags</li>
+		
+			</ul>
+			</div>
+
+			<div class="middle-text">
+				<h2 class="list-header">Most Purschase product</h2>
+				<ul>
+					<li>converse shoes</li>
+					<li>Strong Perfumes</li>
+					<li>mini skirt</li>
+					<li>B.sneakers</li>
+			
+				</ul>
+				</div>
+
+				<div class="right-text">
+					<h2 class="list-header">HELP & SUPPORT</h2>
+					<ul>
+						<li>Contact us</li>
+						<li>About us</li>
+						<li>Private Policy</li>
+						<li>Terms of use</li>
+
+					</ul>
+
+					<div class="soc-image">
+						<img src="images/facebook.png" alt="facebook">
+						<img src="images/instagram.png" alt="instagram">
+						<img src="images/whatsapp.png" alt="whatsapp">
+						<img src="images/twitter.png" alt="twitter">
+					</div>
+		</div>
+
+		
+
+    </footer>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <script src="scripts/index.js"></script>
+    <script src="scripts/regiter.js"></script>
+</body>
+
+</html>
